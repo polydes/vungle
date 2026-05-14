@@ -1,7 +1,8 @@
-name=Vungle Advertisement v0.0.6 (byRobin)
+id=vungle
+name=Vungle Advertisement
 description=Implements Vungle ads for iOS and Android.
 author=Robin Schaafsma
-website=http://www.byrobingames.com
-version=0.0.7
+version=0.1.0
 compatibility=mobile
-dependencies=toolset-com.byrobingames.manager-0.0.1,stencylbuild-12043
+dependencies=stencyl-4.1.5
+repository=https://www.polydes.com/byrobingames

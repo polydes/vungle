@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
+
+    <source path="src" />
     
     <section if="android">
-        <classpath name="src" />
-        
         <dependency name="vungle" path="dependencies/vungle" if="android" />
         
         <android extension="com.byrobin.vungle.VungleEx" />
     </section>
 
 	<section if="ios">
-        
-        <echo value='|----------------------------------------------------------------------------|' />
-        <echo value='| Vungle: Enable byRobin Extension manager in "Setting->Extension"           |' />
-        <echo value='|----------------------------------------------------------------------------|' />
-        
-        <setenv name="VUNGLE_ENABLED" value="true" />
-        
-		<ndll name="vungle" />
         
         <dependency path="frameworks/VungleSDK.framework"/>
         

@@ -16,8 +16,11 @@ import lime.system.JNI;
 #end
 #end
 
-import scripts.ByRobinAssets;
-
+#if ios
+@:buildXml('<include name="${haxelib:vungle}/project/build.xml"/>')
+//This is just here to prevent the otherwise indirectly referenced native code from being stripped at link time.
+@:cppFileCode('extern "C" int vungle_register_prims();void com_byrobin_vungle_link(){vungle_register_prims();}')
+#end
 class Vungle {
 
 	private static var initialized:Bool=false;
@@ -51,9 +54,9 @@ class Vungle {
 	public static function init(){
 
 		#if ios
-		var appId:String = ByRobinAssets.VUIosAppID;
+		var appId:String = VungleConfig.iosAppID;
 		#elseif android
-		var appId:String = ByRobinAssets.VUAndroidAppID;
+		var appId:String = VungleConfig.androidAppID;
 		#end
 
 		#if ios

@@ -4,10 +4,6 @@ For Stencyl 3.4 and above
 
 Stencyl extension for “Vungle” (http://www.vungle.com) for iOS and Android. This extension allows you to easily integrate Vungle on your Stencyl game / application. (http://www.stencyl.com)
 
-### Important!!
-
-This Extension Required the Toolset Extension Manager [https://byrobingames.github.io](https://byrobingames.github.io)
-
 ![vungletoolset](https://byrobingames.github.io/img/vungle/vungletoolset.png)
 
 ## Main Features
@@ -22,15 +18,6 @@ As of May 25th, the General Data Protection Regulation (GDPR) will be enforced i
 **Option 1 (recommended):** Publisher controls the GDPR consent process at the user level, then communicates the user’s choice to Vungle. To do this, developers can collect the user’s consent using their own mechanism, and then use Vungle APIs to update or query the user’s consent status. Refer to the GDPR Recommended Implementation Instruction section for details.
 **Option 2:** Allow Vungle to handle the requirements. Vungle will display a consent dialog before playing an ad for a European user, and will remember the user’s consent or rejection for subsequent ads.
   
-## How to Install
-
-To install this Engine Extension, go to the toolset (byRobin Extension Mananger) in the Extension menu of your game inside Stencyl.<br/>
-![toolsetextensionlocation](https://byrobingames.github.io/img/toolset/toolsetextensionlocation.png)<br/>
-Select the Extension from the menu and click on "Download"
-
-If you not have byRobin Extension Mananger installed, install this first.<br/>
-Go to: [https://byrobingames.github.io](https://byrobingames.github.io)
-
 ## Documentation and Block Examples
 
 If you don’t have an account, create one on [https://publisher.vungle.com](https://publisher.vungle.com) and get your “AppID” and "Placements Reference Id"
@@ -83,28 +70,6 @@ Get the Consent of user programmatically returns true when OPTED_IN is set and r
 - 2017-03-19 (0.0.4)  Updated to use with Heyzap Extension 2.9, Update iOS SDK to 4.0.9, Added Android Gradle support.
 - 2017-05-16(0.0.5)  Tested for Stencyl 3.5, Required byRobin Toolset Extension Manager
 - 2019-01-13(0.0.6)  Update iOS SDK to 6.3.2 and Android SDK to 6.3.24; Added set/get users consent; Added load block; Android JNI import fix; Added placement support; byRobinextensionmanager 0.2.3 required
-
-## Submitting a Pull Request
-
-This software is opensource.<br/>
-If you want to contribute you can make a pull request
-
-Repository: [https://github.com/byrobingames/vungle](https://github.com/byrobingames/vungle)
-
-Need help with a pull request?<br/>
-[https://help.github.com/articles/creating-a-pull-request/](https://help.github.com/articles/creating-a-pull-request/)
-
-### ANY ISSUES?
-
-Add the issue on GitHub<br/>
-Repository: [https://github.com/byrobingames/vungle/issues](https://github.com/byrobingames/vungle/issues)
-
-Need help with creating a issue?<br/>
-[https://help.github.com/articles/creating-an-issue/](https://help.github.com/articles/creating-an-issue/)
-
-## Donate
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HKLGFCAGKBMFL)<br />
 
 ## Privacy Policy
 
