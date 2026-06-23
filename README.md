@@ -62,15 +62,6 @@ Set the Consent of user programmatically.
 ![vunglegetconsent](https://byrobingames.github.io/img/vungle/vunglegetconsent.png)<br/>
 Get the Consent of user programmatically returns true when OPTED_IN is set and returns false when OPTED_OUT is set. If Consent is not set it will return false.
 
-## Version History
-
-- 2016-03-28 (0.0.1) First release
-- 2016-09-25 (0.0.2) Update iOS SDK 4.05 and Android SDK 4.02
-- 2016-11-18 (0.0.3)  Updated to use with Heyzap Extension 2.7
-- 2017-03-19 (0.0.4)  Updated to use with Heyzap Extension 2.9, Update iOS SDK to 4.0.9, Added Android Gradle support.
-- 2017-05-16(0.0.5)  Tested for Stencyl 3.5, Required byRobin Toolset Extension Manager
-- 2019-01-13(0.0.6)  Update iOS SDK to 6.3.2 and Android SDK to 6.3.24; Added set/get users consent; Added load block; Android JNI import fix; Added placement support; byRobinextensionmanager 0.2.3 required
-
 ## Privacy Policy
 
 https://www.vungle.com
