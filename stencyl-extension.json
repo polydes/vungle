@@ -6,7 +6,7 @@
   "tags": ["ads"],
   "type": "game",
   "author": "Robin Schaafsma",
-  "website": "https://www.polydes.com/byrobingames/engine/vungle",
+  "website": "https://www.polydes.com/byrobingames/extensions/vungle",
   "repository": "https://www.polydes.com/byrobingames",
   "target": "stencyl-4.2.0",
   "version": "0.1.0",
